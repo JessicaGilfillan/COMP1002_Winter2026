@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset
+    <meta charset="UTF-8">
+    <title>User Registration FOrm</title>
 </head>
 <body>
 <!--
@@ -11,42 +12,43 @@ Name: Aiden Etim-Bassey
 Description: Created a User registration Form based off of a screenshot. 
 Used various types to get the desired Sections, so it can be improved upon in the future.
 -->
+<form>
     <h1>User Registration Form</h1>
 
     <!--First Name section-->
     <p>
         <label for="first_name">First Name:</label>
-        <input type="text" id="first_name" name="first_name" required/>
+        <input type="text" id="first_name" name="first_name" required>
     </p>
 
     <!--Last Name section-->
     <p>
         <label for="last_name">Last Name:</label>
-        <input type="text" id="last_name" name="last_name" required/>
+        <input type="text" id="last_name" name="last_name" required>
     </p>
 
     <!--Email address section-->
     <p>
         <label for="email_address">Email address:</label>
-        <input type="email" id="email_address" name="email_address" required/>
+        <input type="email" id="email_address" name="email_address" required>
     </p>
 
     <!--Password section-->
     <p>
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required/>
+        <input type="password" id="password" name="password" required>
     </p>
 
     <!--Confirm password section. Would need Js to make it work with Password section-->
     <p>
         <label for="confirm_password">Confirm Password:</label>
-        <input type="password" id="confirm_password" name="confirm_password" required/>
+        <input type="password" id="confirm_password" name="confirm_password" required>
     </p>
 
     <!--Date of Birth section-->
     <p>
         <label for="date_of_birth">Date of Birth:</label>
-        <input type="date" id="date_of_birth" name="date_of_birth" required/>
+        <input type="date" id="date_of_birth" name="date_of_birth" required>
     </p>
 
     <!--Gender Section-->
@@ -54,10 +56,10 @@ Used various types to get the desired Sections, so it can be improved upon in th
     <fieldset>
     <legend>Gender:</legend>
 
-    <input type="radio" id="male" name="gender" value="Male" required/>
+    <input type="radio" id="male" name="gender" value="Male" required>
     <label for="male">Male</label>
     
-    <input type="radio" id="female" name="gender" value ="Female"/>
+    <input type="radio" id="female" name="gender" value ="Female">
     <label for="female">Female</label>
     
     <input type="radio" id="other" name="gender" value="Other"/>
@@ -96,5 +98,6 @@ Used various types to get the desired Sections, so it can be improved upon in th
     <!--Submit Section-->
     <button type="Submit">Submit</button>
     
+</form>    
 </body>
 </html>
