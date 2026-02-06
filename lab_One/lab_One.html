@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration FOrm</title>
+</head>
+<body>
+<!--
+Date: January 24, 2026
+Name: Aiden Etim-Bassey
+Description: Created a User registration Form based off of a screenshot. 
+Used various types to get the desired Sections, so it can be improved upon in the future.
+-->
+<form>
+    <h1>User Registration Form</h1>
+
+    <!--First Name section-->
+    <p>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required>
+    </p>
+
+    <!--Last Name section-->
+    <p>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required>
+    </p>
+
+    <!--Email address section-->
+    <p>
+        <label for="email_address">Email address:</label>
+        <input type="email" id="email_address" name="email_address" required>
+    </p>
+
+    <!--Password section-->
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </p>
+
+    <!--Confirm password section. Would need Js to make it work with Password section-->
+    <p>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+    </p>
+
+    <!--Date of Birth section-->
+    <p>
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth" required>
+    </p>
+
+    <!--Gender Section-->
+    
+    <fieldset>
+    <legend>Gender:</legend>
+
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label>
+    
+    <input type="radio" id="female" name="gender" value ="Female">
+    <label for="female">Female</label>
+    
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label>
+    </fieldset>
+
+    <!--Preferences section-->
+    <fieldset>
+        <legend>Preferences:</legend>
+        
+        <input type="checkbox" id="newsletter" name="preferences[]">
+        <label for="newsletter">Subscribe to Newsletter</label><br>
+
+        <input type="checkbox" id="terms" name="preferences[]" required>
+        <label for="terms">I agree to the terms & conditions</label>
+    </fieldset>
+
+    <!--Country section-->
+    <p>
+        <label for="country">Country:</label>
+
+        <select id="country" name ="country" required>
+            <option value="" selected disabled>Select Country</option>
+            <option value="afghanistan">Afghanistan</option>
+            <option value="bahamas">Bahamas</option>
+            <option value="canada">Canada</option>
+        </select>
+        
+    </p>
+
+    <!--Comments section-->
+    <p>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Any additional comments..."></textarea>
+    </p>
+
+    <!--Submit Section-->
+    <button type="Submit">Submit</button>
+
+</form>    
+</body>
+</html>
