@@ -20,8 +20,18 @@ header{
     padding: 20px;
     text-align: center;
 }
+
 /*Descendant selector*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 /*Child selector*/
+nav > ul > li {
+    display: inline;
+    margin: 0 10px;
+}
 /*Id selector*/
 /*Class selector*/
 /*Attribute selector*/
