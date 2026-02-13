@@ -50,7 +50,17 @@ input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
 }
+
 /*Class selector*/
+.button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2590d8;;
+    color: white;
+    text-decoration: none;
+}
 /*Class selector*/
 /*Footer Style*/
