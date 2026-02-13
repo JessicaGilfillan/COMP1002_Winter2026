@@ -47,9 +47,10 @@ nav > ul > li {
 }
 
 /*Id selector*/
-#about {
+#about, #projects, #contact {
     background-color: white;
     padding: 20px;
+    margin-top: 15;
 }
 
 /*Class selector*/
@@ -71,7 +72,7 @@ textarea {
 .button{
     display: inline-block;
     padding: 10px 15px;
-    background-color: #2590d8;;
+    background-color: #2590d8;
     color: white;
     text-decoration: none;
 }
