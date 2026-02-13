@@ -32,8 +32,18 @@ nav > ul > li {
     display: inline;
     margin: 0 10px;
 }
+
 /*Id selector*/
+#about {
+    background-color: white;
+    padding: 20px;
+}
+
 /*Class selector*/
+.skills-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
 /*Attribute selector*/
 /*Class selector*/
 /*Class selector*/
