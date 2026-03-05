@@ -1,46 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aiden Etim-Bassey | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!--Header and Navigation Section-->
+    <header>
+        <h1>Aiden Etim-Bassey</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>Jessica Gilfillan </h1>
-    <h2>Instructor, Mom, Cat Lady</h2>
 
-    <h2>About Me </h2>
+<main>
+    <!--About Section-->
+    <section id="about">
+        <h2>About Me</h2>
+        <!--Place Holder Image-->
+        <img src="profile.jpg" alt="Photo of Aiden Etim-Bassey">
 
-    <img src="images/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg" alt="cute cat">
+        <p>
+            I am a Computer Programming and Analysis Student currently learning the basics of web dev.
+            I enjoy solving problems, learning new skills, and improving onn previously weak areas. My goal
+            is to develop the basics of both front end and back end, so that I can improve on my overall 
+            computing skills
+        </p>
 
-    <p>I am a mom and a professor at Georgian College. In my non-existent spare time, I enjoy reading, knitting and
-        doing yoga.</p>
+        <h3>Skills</h3>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
 
-    <h2>Likes & Dislikes </h2>
+    <!--Projects Section-->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p> You can view my current projects on my GitHub profile:</p>
+        <a class="button" href="https://github.com/348615336" target="_blank">Visit My GitHub</a>
+    </section>
 
-    <h3>Likes</h3>
+    <!--Contact Information Section-->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required minlength="2">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required minlength="10"></textarea>
 
-    <ul>
-        <li>Reading (especially when it’s quiet 📚)</li>
-        <li>Knitting as a creative and relaxing outlet</li>
-        <li>Practicing yoga to unwind and reset</li>
-        <li>Meaningful conversations with students</li>
-        <li>Coffee that’s still hot ☕</li>
-    </ul>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
 
-    <h3>>Dislikes</h3>
-    <ol>
-        <li>cold coffee </li>
-        <li>Unrealistic schedules</li>
-        <li>Debugging code at the last minute</li>
-        <li>Cluttered digital files</li>
-        <li> When spare time disappears completely</li>
-    </ol>
-
+<footer>
+    <p>&copy; 2026 Aiden Etim-Bassey</p>
+</footer>
 
 </body>
-
 </html>
