@@ -53,8 +53,8 @@
         let heading = document.querySelector("h1"); */ 
 
         /* using getElementById*/ 
-        /*let heading = document.getElementById("title");
-        console.log(heading);*/ 
+        let heading = document.querySelector("#title");
+        console.log(heading); 
 
         /* using querySelectorAll - returns a Nodelist */ 
         let headings = document.querySelectorAll("h1");
@@ -82,6 +82,19 @@
 
         // TODO: Select ALL paragraphs with class .info
         // Hint: querySelectorAll(".info") and loop through them
+
+        let allInfoParagraphs = document.querySelectorAll(".info"); 
+        console.log(allInfoParagraphs); 
+
+        allInfoParagraphs.forEach(function(paragraph) {
+            paragraph.classList.add("highlight"); 
+        }); 
+
+
+
+
+
+
 
     </script>
 
