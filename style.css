@@ -1,0 +1,96 @@
+/*
+=========================================
+COMP1002 - Course Project Phase One
+Reflection:
+I feel this project helped me better grasp how CSS is meant
+to tie into HTML. Using semantic elements like header, section,
+and footer made it easier to split my page into different boxes
+to better organize my page.
+
+One of the challanges I faced was forgetting the areas of some closing
+tags causing errors, or accidentally misplacing them. Another challenge
+I faced was making sure that I knew how different selectors work and making sure
+I used individual types correctly.
+
+In Phase two, I hope to improve my layout, and to hopefully make my page
+more responsive on mobile devices, or to create dynamic padding so that
+it can adjust depending on the Window size
+
+=========================================
+*/
+/*Font selector*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/*Element selector*/
+header{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    max-width: 200px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 1px;
+}
+/*Descendant selector*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*Child selector*/
+nav > ul > li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/*Id selector*/
+#about, #projects, #contact {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+/*Class selector*/
+.skills-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/*Attribute selector*/
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+/*Button Class selector*/
+.button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2590d8;
+    color: white;
+    text-decoration: none;
+}
+
+/*Button Hover Class selector*/
+.button:hover {
+    background-color: #002e4a;
+}
+
+/*Footer Style*/
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
